@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>EduWorld - Learning Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+<div class="logo">
+    <span class="book-icon">📚</span>
+    <h2>EduWorld</h2>
+</div>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+<a href="#courses" class="search">🔍</a>
+    </header>
+    
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Your Learning<br>Journey Starts Here</h1>
+
+        <p>
+            Access courses, resources and guidance
+            to achieve your goals.
+        </p>
+
+        <a href="#courses" class="btn">Get Started</a>
+    </div>
+</section>
+
+
+<section class="course-area" id="courses">
+
+    <div class="course-cards">
+
+        <div class="course-card web-card">
+            <div class="course-icon"> &lt;/&gt; </div>
+            <h3>Web Technologies</h3>
+            <p>Learn HTML, CSS and JavaScript.</p>
+            <a href="#contact">Learn More →</a>
+        </div>
+
+        <div class="course-card database-card">
+            <div class="course-icon">▤</div>
+            <h3>Database Systems</h3>
+            <p>Work with real-world databases.</p>
+            <a href="#contact">Learn More →</a>
+        </div>
+
+        <div class="course-card python-card">
+            <div class="course-icon">🐍</div>
+            <h3>Python Programming</h3>
+            <p>Build logic and solve problems.</p>
+            <a href="#contact">Learn More →</a>
+        </div>
+
+    </div>
+
+    <aside class="quick-links">
+        <h3>Quick Links</h3>
+        <a href="#home">⌂ &nbsp; Home</a>
+        <a href="#about">● &nbsp; About Us</a>
+        <a href="#courses">▣ &nbsp; Courses</a>
+        <a href="#contact">✉ &nbsp; Contact</a>
+    </aside>
+
+</section>
+
+<section class="quote-banner">
+    <h2>
+        "Small steps every day<br>
+        lead to big results."
+       </h2> 
+</section>
+
+
+
+
+<section class="bottom-area" id="contact">
+
+    <div class="registration">
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post">
+
+            <div class="form-grid">
+
+                <div class="field">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname"
+                           name="fullname"
+                           placeholder="Enter your name"
+                           required>
+                </div>
+
+                <div class="field">
+                    <label for="gender">Gender:</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="gender"
+                                   value="Male">
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender"
+                                   value="Female">
+                            Female
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+                </div>
+
+                <div class="field">
+                    <label for="department">Department:</label>
+                    <select id="department" name="department">
+                        <option value="">Select Department</option>
+                        <option>Computer Science</option>
+                        <option>Software Engineering</option>
+                        <option>Information Technology</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password"
+                           name="password"
+                           placeholder="Enter your password"
+                           required>
+                </div>
+
+                <div class="field">
+                    <label>Courses:</label>
+                    <div class="check-group">
+                        <label>
+                            <input type="checkbox" name="courses"
+                                   value="Web Technologies">
+                            Web Technologies
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="courses"
+                                   value="Database Systems">
+                            Database Systems
+                        </label>
+
+                        <label>
+                            <input type="checkbox" name="courses"
+                                   value="Programming">
+                            Programming
+                        </label>
+                    </div>
+                </div>
+
+                <div class="field message-field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"
+                              rows="4"
+                              placeholder="Write your message here..."></textarea>
+                </div>
+
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn">Register</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+
+        </form>
+    </div>
+
+
+</section>
+
+
+
+
+<aside class="media-panel" id="about">
+
+    <h3>Listen to Our Message</h3>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <img
+        src="images.jpg"
+        alt="University campus">
+
+    <h3>Welcome to EduWorld!</h3>
+
+    <p>Join us and be a part of something great.</p>
+
+</aside>
+
+
+
+<footer class="footer">
+    <p>© 2025 EduWorld. All rights reserved.</p>
+</footer>
+
